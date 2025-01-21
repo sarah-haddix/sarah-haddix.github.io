@@ -1,0 +1,38 @@
+body {
+  font-family: $font-stack;
+  color: black;
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-column {
+  flex: 1; /* Take up one part of the available space */
+  display: flex;
+  flex-direction: column; /* Stack images vertically */
+  justify-content: flex-start; /* Align images at the top */
+}
+
+.left-column img {
+  width: 100%; /* Make images responsive */
+  // margin-bottom: 10px; /* Add spacing between images */
+}
+
+.right-column {
+  flex: 2; /* Take up two parts of the available space */
+  padding: 20px;
+  overflow-y: auto; /* Add vertical scroll if text overflows */
+}
+
+// LINKS
+a {
+  color: $blue-primary;
+}
+
+a:hover {
+  color: $orange-primary;
+}

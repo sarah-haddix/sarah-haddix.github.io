@@ -1,2 +1,6 @@
 title: Sarah's Spot
 description: My website.
+
+sass:
+  sass_dir: _sass       # Directory for Sass partials
+  style: compressed     # Options: expanded, compressed
