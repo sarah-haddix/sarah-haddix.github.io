@@ -1,3 +1,4 @@
+/*
 const images = [
   "/assets/images/image1.jpg",
   "/assets/images/image6.jpg",
@@ -21,3 +22,4 @@ rotatingImage.addEventListener("click", () => {
     rotatingImage.src = images[currentIndex];
     rotatingImage.setAttribute("data-index", currentIndex);
 });
+*/
