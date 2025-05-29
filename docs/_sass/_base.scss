@@ -35,15 +35,20 @@ body {
 }
 
 .right-column figure {
+  width: 50%;
   text-align: center;
   margin: 0;
 }
 
 .right-column img {
-  max-width: 200px;
+  width: 99%;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.right-column figcaption {
+  padding: 10px;
 }
 
 // LINKS
