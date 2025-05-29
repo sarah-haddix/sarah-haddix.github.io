@@ -23,3 +23,22 @@ rotatingImage.addEventListener("click", () => {
     rotatingImage.setAttribute("data-index", currentIndex);
 });
 */
+
+window.addEventListener('load', () => {
+  const img1 = document.getElementById('nagoya-pres');
+  const img2 = document.getElementById('AWM');
+
+  const h1 = img1.clientHeight;
+  const h2 = img2.clientHeight;
+
+  console.log(`Image 1 height: ${h1}px`);
+  console.log(`Image 2 height: ${h2}px`);
+
+  const avgHeight = (h1+h2)/2;
+
+  img1.style.height = `${avgHeight}px`;
+  img1.style.width = 'auto';
+
+  img2.style.height = `${avgHeight}px`;
+  img2.style.width = 'auto';
+});
